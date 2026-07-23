@@ -1,10 +1,18 @@
-.center {
-    padding: 20px 40px;
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.block-center {
+    padding: 10px 40px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     max-height: 100vh;
     height: 100vh;
+    background-color: #f7f7f7;
 }
 
 .info {
